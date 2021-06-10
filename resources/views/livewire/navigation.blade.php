@@ -12,5 +12,7 @@
         </a>
 
         @livewire('search')
+
+        {{-- <x-search size="35" color="white"></x-search> --}}
     </div>
 </header>
