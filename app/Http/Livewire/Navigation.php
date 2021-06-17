@@ -9,6 +9,7 @@ class Navigation extends Component
 {
     public function render()
     {
+        //get all categories
         $categories = Category::all();
         return view('livewire.navigation', compact('categories'));
     }
