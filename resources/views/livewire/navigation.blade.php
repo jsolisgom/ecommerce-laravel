@@ -2,7 +2,6 @@
     #navigation-menu{
         height: calc(100vh - 4rem);
     }
-
     .navigation-link:hover .navigation-submenu{
         display: block !important;
     }
